@@ -9,10 +9,10 @@ if($id > 0){
     mysqli_stmt_close($stmt);
 
     // Chuyển hướng về lại danh sách với thông báo
-    echo "<script>alert('Delete sucessfilly'); window.location.href='readHandle.php';</script>";
+    echo "<script>alert('Delete sucessfilly'); window.location.href='index.php';</script>";
     exit;
 } else {
-    echo "<script>alert('ID is unable'); window.location.href='readHandle.php';</script>";
+    echo "<script>alert('ID is unable'); window.location.href='index.php';</script>";
     exit;
 }
 ?>

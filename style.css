@@ -96,3 +96,12 @@ input:focus {
 #add{
     margin-left: 20px;
 }
+
+.btn-up-re{
+    display: flex;
+    gap: 10px;
+}
+
+#formUpdate{
+    width: 500px;
+}
